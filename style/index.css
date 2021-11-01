@@ -225,6 +225,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  /* border: 1px solid red; */
 }
 .footButton {
   /* margin-top: 20rem; */
@@ -240,14 +241,19 @@ footer {
 .footer-icons {
   /* border: 1px solid red; */
   display: flex;
-  /* width: 60%; */
+  flex-direction: column;
+  width: 100%;
   justify-content: space-around;
   /* width: 20em; */
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  /* text-align: center; */
+  /* margin: 0 auto; */
 }
 .footer-icons a {
-  width: 4%;
+  max-width: 50px;
   display: flex;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 .projects-title {
   text-align: center;
@@ -392,6 +398,11 @@ img:hover {
         padding: 0;
         /* border: 1px solid red; */
     }
+    .footer-icons{
+        display:flex;
+        flex-direction: row;
+    }
+
 }
 @media(min-width: 800px){
     .project-child{
