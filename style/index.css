@@ -412,4 +412,8 @@ img:hover {
     .project-child{
         width: 100%;
     }
+    .main{
+        border: 1px solid red;
+        width: 80%;
+    }
 }
