@@ -408,3 +408,8 @@ img:hover {
         max-width: 400px;
     }
 }
+@media(max-width: 360px){
+    .project-child{
+        width: 100%;
+    }
+}
